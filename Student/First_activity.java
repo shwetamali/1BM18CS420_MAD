@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         tv3=(TextView) findViewById(R.id.textView4);
         s=(Spinner) findViewById(R.id.spinner);
 
-        ArrayAdapter adapter;
-        adapter = new ArrayAdapter(MainActivity.this,android.R.layout.simple_spinner_item,dept_array);
+        ArrayAdapter  adapter = new ArrayAdapter(MainActivity.this,android.R.layout.simple_spinner_item);
         s.setAdapter(adapter);
 
         b1.setOnClickListener(new View.OnClickListener() {
