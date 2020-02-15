@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class sec_activity extends AppCompatActivity {
     TextView t1,t2,t3;
+    String name,reg,dept;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
